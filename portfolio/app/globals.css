@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+
+
+.scrollDown {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.scrollDown:hover {
+  background: white;
+  color: #3498db;
+}
+
+/* Project Section Styles */
+.projectSection {
+  padding: 40px 20px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.projectCard {
+  background: white;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  text-align: left;
+}
+
+.projectCard h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.projectCard p {
+  font-size: 1.2rem;
+}
+
+.projectCard img {
+  max-width: 100%;
+  border-radius: 8px;
+}
