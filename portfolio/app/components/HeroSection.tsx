@@ -9,9 +9,9 @@ import DownloadButton from './PdfDownload';
 const HeroSection: React.FC = () => {
   return (
     <>
-      <section className='container mx-auto px-6 lg:px-12 h-screen flex items-center'>
-        <div className='grid grid-cols-1 lg:grid-cols-12 gap-8'>
-          <div className='col-span-12 lg:col-span-7 flex flex-col justify-center'>
+      <section className='container mx-auto px-6 lg:px-12  h-screen flex items-center pt-40 lg:pt-0'>
+        <div className='grid grid-cols-1 lg:grid-cols-12 gap-8 pt-20 lg:pt-0 '>
+          <div className='col-span-12 lg:col-span-7 flex flex-col justify-center  '>
             <h1 className='text-white mb-4 text-4xl lg:text-6xl font-extrabold'>
               <span>Hey, Ik ben {""}</span>
               <TypeAnimation
@@ -30,8 +30,8 @@ const HeroSection: React.FC = () => {
             <p className='text-[#f0f4f8] text-lg mb-6 lg:text-xl'>
               Welkom in mijn bescheiden portfolio! Als junior webontwikkelaar ben ik enthousiast om mijn eerste stappen te delen in de wereld van creatieve digitale oplossingen. Neem gerust een kijkje en ontdek mijn groeiende verzameling ontwerpen. Geniet van de reis en voel je vrij om te browsen! 🚀
             </p>
-            <div className='gap-4 mt-4'>
-              <a href="https://www.linkedin.com/in/rachad-bouhjar/" className='text-white hover:text-red-400 transition duration-300'>
+            <div className='gap-4 mt-4 '>
+              <a href="https://www.linkedin.com/in/rachad-bouhjar-0874a8152/" target='_blank' className='text-white hover:text-red-400 transition duration-300'>
                 <FaLinkedin size={24} />
               </a>
               <DownloadButton />

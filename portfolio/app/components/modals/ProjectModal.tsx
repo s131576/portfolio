@@ -18,10 +18,10 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
-      <div className="bg-white max-w-4xl w-full rounded-lg shadow-lg overflow-hidden relative flex flex-col md:flex-row">
+      <div className="bg-white max-w-4xl w-full lg:h-96 rounded-lg shadow-lg overflow-hidden relative flex flex-col md:flex-row">
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-gray-500 hover:text-black z-10 transition-colors duration-300"
+          className="absolute top-1 right-1 text-gray-900 hover:text-black z-10 transition-colors duration-300 border bg-gray-300 border-indigo-500/100 rounded p-2"
         >
           &times;
         </button>
@@ -34,7 +34,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
             className="object-cover"
           />
         </div>
-        <div className="md:w-2/5 p-8 flex flex-col justify-between">
+        <div className="md:w-2/5  flex flex-col justify-between">
           <div>
             <h2 className="text-4xl font-bold mb-6 text-gray-600">{project.title}</h2>
             <p className="text-gray-700 mb-8">{project.description}</p>
