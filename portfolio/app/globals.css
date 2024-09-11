@@ -39,7 +39,7 @@ section {
 /* Project Section Styles */
 .projectSection {
   padding: 40px 20px;
-  background: #f4f4f4;
+  /* background: #f4f4f4; */
   border-bottom: 1px solid #ddd;
 }
 

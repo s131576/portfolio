@@ -17,7 +17,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
   if (!project) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-opacity-70 z-50 bg-gradient-to-b bg-indigo-300">
       <div className="bg-white max-w-4xl w-full lg:h-96 rounded-lg shadow-lg overflow-hidden relative flex flex-col md:flex-row">
         <button
           onClick={onClose}
