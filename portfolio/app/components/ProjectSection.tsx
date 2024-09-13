@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import ProjectModal from './modals/ProjectModal';
 const projects = [
   {
+    title: "DashI",
+    description: "Gebruikers kunnen hun uitgaven bijhouden, categoriseren en inzicht krijgen in hun bestedingen. COVID - 19 Grafieken, spraak naar PDF. Toekomstige functies: Weerinformatie en een nieuwssectie toe te voegen  voor een uitgebreidere ervaring.",
+    websiteLink: "https://rb-managment.vercel.app/",
+    imageUrl: "/dashi.png"
+  },
+  {
     title: "Shop",
     description: "E-commerce platform waar gebruikers orders kunnen plaatsen, betalen en automatisch PDF-facturen genereren. Gebouwd met Next.js, Prisma, MongoDB, TypeScript, NextAuth, Vercel en Zustand.",
     websiteLink: "https://shop-dummy-data.vercel.app/",
